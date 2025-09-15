@@ -37,17 +37,6 @@ O objetivo é demonstrar conceitos práticos de autenticação, persistência de
 	•	Coloque o arquivo em iChat/ (mesma pasta do target).
 
 ---
-# Estrutura do Projeto
-
-iChat/
- ├── iChat.xcodeproj        # Arquivo do Xcode
- ├── iChat/                 # Código-fonte do app
- │   ├── Views/             # Telas em SwiftUI
- │   ├── Models/            # Modelos de dados
- │   ├── Services/          # Serviços (Firebase, etc.)
- │   └── iChatApp.swift     # App entry point
- ├── imagens/               # Assets e imagens de exemplo
- └── README.md              # Documentação do projeto
 
 
 # ⚠️ Observação importante
