@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Xcode / build
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcworkspace/xcuserdata/
+*.xcuserdatad
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods (mantenha só o Podfile.lock versionado)
+Pods/
+!Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase (NÃO subir suas chaves)
+GoogleService-Info.plist
+GoogleService-Info-*.plist
+
+# Segredos/comuns
+*.xcconfig
+.env
+*.pem
